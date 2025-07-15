@@ -1,0 +1,13 @@
+# Environment variables
+.env
+
+# Google OAuth2 credentials and tokens
+credentials.json
+token.json
+
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
