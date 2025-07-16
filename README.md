@@ -1,4 +1,3 @@
-```markdown
 # 📌 Google Tasks → Notion Sync
 
 A backend app that automatically syncs your Google Tasks into a Notion database every 5 minutes. Built using Node.js, Express, Google Tasks API, and Notion API.
@@ -11,22 +10,6 @@ A backend app that automatically syncs your Google Tasks into a Notion database 
 - 🧠 Prevents duplicates using local task ID tracking
 - 🧩 Modular and clean code structure
 - 🔐 Secure via `.env` for API tokens and secrets
-
-## 📁 Project Structure
-
-```
-📦 google-tasks-notion-sync/
-├── src/
-│   ├── google.js       # Google Tasks API logic (OAuth + fetching)
-│   ├── notion.js       # Notion API logic (inserting tasks)
-│   └── sync.js         # Core sync engine (fetch → filter → insert)
-├── synced_tasks.json   # Local store of synced Google task IDs
-├── .env                # Environment variables
-├── credentials.json    # Google OAuth2 credentials
-├── token.json          # Saved Google auth token
-├── server.js           # Express server + cron job
-└── README.md           # This file
-```
 
 ## 🚀 Getting Started
 
